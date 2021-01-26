@@ -9,7 +9,6 @@ To get the code of the second session:
 
 
 # How to build this application (reminder)
----
 
 1. You need to generate the Makefile by using cmake from the 
    build directory as (on the virtual machine)
