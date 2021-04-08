@@ -58,6 +58,7 @@ int main(int argc, char** argv) {
     G4String scmd = argv[1];
     UImanager->ApplyCommand(cmd + scmd);
   } else {
+    UImanager->ApplyCommand("/run/initialize");
     UImanager->ApplyCommand("/control/execute ../vis.mac");
     ui->SessionStart();
     delete ui;
